@@ -25,14 +25,14 @@ console.log("A área da parede é: " + area);
 // Nome e sobrenome inseridos pelo usuário
 var nome = "João";
 var sobrenome = "Silva";
-
+var NomeCompleto = nome + " " + sobrenome; 
+// Adicionando espaço entre nome e sobrenome
 // Juntando os nomes com a mensagem de boas-vindas
-  
+var mensagem = "Bem-vindo, " + NomeCompleto + "!";
        //seu código
 
 // Exibindo a mensagem no console
-console.log();
-
+console.log(mensagem);
 
 //-------------------------------------------------------------------------------------------------
 
@@ -48,12 +48,12 @@ console.log();
 var idadeEmAnos = 30;
 
 // Calculando anos em dias
-  
+  var idadeEmDias = idadeEmAnos * 365;
       //seu código
 
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log("O funcionário viveu aproximadamente " + idadeEmDias + " dias ");
 
 //-------------------------------------------------------------------------------------------------
 
@@ -67,6 +67,8 @@ console.log("O funcionário viveu aproximadamente... dias");
 
 // Duração total do evento em minutos
 var duracaoEmMinutos = 135;
+var horas = Math.floor(duracaoEmMinutos / 60); // Obtém o número inteiro de horas
+var minutos = duracaoEmMinutos % 60; // Obtém os minutos restantes
 
 // Calculando horas e minutos
   
@@ -74,4 +76,5 @@ var duracaoEmMinutos = 135;
 
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log(`O evento durou ${horas} horas e ${minutos} minutos.`); 
+// usei a IA para me ajudar nessa questão
