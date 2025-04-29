@@ -9,12 +9,10 @@
 // Dimensões da parede (largura e altura em metros)
 var largura = 5;
 var altura = 4;
-
 // Calculando a área da parede
-
+var area = largura * altura;
 // Exibindo o resultado no console
-console.log("A área da parede é:");
-
+console.log("A área da parede é: " + area);
 //-------------------------------------------------------------------------------------------------
 
 // Desafio 2
