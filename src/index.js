@@ -10,7 +10,7 @@
 var largura = 5;
 var altura = 4;
 // Calculando a área da parede
-var area = largura * altura;
+var area = largura * altura; // area total é de 4*5=20
 // Exibindo o resultado no console
 console.log("A área da parede é: " + area);
 //-------------------------------------------------------------------------------------------------
@@ -48,8 +48,9 @@ console.log(mensagem);
 var idadeEmAnos = 30;
 
 // Calculando anos em dias
-  var idadeEmDias = idadeEmAnos * 365;
-      //seu código
+  var idadeEmDias = idadeEmAnos * 365; 
+// 30*365
+//seu código
 
 
 // Exibindo o resultado no console
